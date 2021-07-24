@@ -1,9 +1,5 @@
     .frame_background {
-        background: url(../images/line_1.png) repeat-y right, url(../images/line_1.png) repeat-y left, url(../images/line_2.png) repeat-x, url(../images/line_2.png)repeat-x bottom;
-    }
-    
-    .frame_background_corners {
-        background: url(../images/upper_left_corner.png) no-repeat left top, url(../images/upper_right_corner.png) no-repeat right top, url(../images/lower_left_corner.png) no-repeat left bottom, url(../images/lower_right_corner.png) no-repeat right bottom;
+        background: url(../images/upper_left_corner.png) no-repeat left top, url(../images/upper_right_corner.png) no-repeat right top, url(../images/lower_left_corner.png) no-repeat left bottom, url(../images/lower_right_corner.png) no-repeat right bottom, url(../images/line_1.png) repeat-y right, url(../images/line_1.png) repeat-y left, url(../images/line_2.png) repeat-x, url(../images/line_2.png)repeat-x bottom;
     }
     
     .frame_content {
