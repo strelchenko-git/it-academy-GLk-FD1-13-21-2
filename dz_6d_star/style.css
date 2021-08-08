@@ -1,0 +1,18 @@
+.stars {
+   display: flex;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+
+.star_link {
+   background: url(./images/star_off.png) no-repeat;
+   width: 64px;
+   height: 64px;
+   
+}
+
+.star_link:hover,
+.star_link:hover~.star_link {
+   background: url(./images/star_on.png);
+}
