@@ -1,0 +1,37 @@
+.titel {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.green {
+    color: #1a9b1a;
+}
+
+.red {
+    color: #f51a1a;
+    font-weight: bold;
+}
+
+.blue {
+    color: #1e1efd;
+    font-style: italic;
+}
+
+a {
+    color: #1e1efd;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+a[href^="https"] {
+    background: url(../dz_6c_chess/extref.png);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    background-position: left;
+}
+  
