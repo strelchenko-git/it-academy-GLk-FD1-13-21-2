@@ -1,0 +1,69 @@
+body {
+    height: 100%;
+    margin: 0;
+    position: relative;
+    font: 16px Arial, sans-serif;
+}
+
+header,
+footer {
+    height: 50px;
+    background-color: #4fb175;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin: 0;
+}
+
+footer {
+    clear: both;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    background-image: url(../images/bg_it_academy_div.png);
+    background-size: 100px;
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    right: 0;
+    opacity: .6;
+    z-index: -1;
+}
+
+.menu {
+    width: 200px;
+    background: rgb(106, 248, 161);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    padding: 60px 10px 10px 10px;
+}
+
+.content {
+    padding: 10px;
+    margin-left: 220px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0px;
+}
+
+p {
+    padding: 10px;
+}
+
+.picture {
+    width: 200px;
+    padding: 10px;
+    float: left;
+}

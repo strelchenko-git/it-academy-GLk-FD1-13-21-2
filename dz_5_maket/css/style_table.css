@@ -1,0 +1,64 @@
+body {
+    position: relative; 
+    height: 100%;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+    font: 16px Arial, sans-serif;
+}
+
+.header,
+.footer {
+    background:#c34a66;
+    color: #fff;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+aside {
+    background-image: url(../images/bg_it_academy_table.png);
+    background-size: 100px;
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    right: 0;
+    opacity: .6;
+    z-index: -1;
+}
+
+.menu {
+    width: 200px;
+    background: #f996a4;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.content {
+    vertical-align: top;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0px;
+}
+
+p{
+    padding: 10px;
+}
+
+.picture{
+    width: 200px;
+    padding: 10px;
+    float: left;
+}
+
+
+
+
